@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resource/styles/style.css">
+    <link rel="stylesheet" href="./resource/styles/fonts-style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <main id="main">
+        <div>
+            <div class="--form">
+                <div class="--form-display --m-bot">
+                    <h1>Profile</h1>
+                    <form action="" method="get">
+                        <div>
+                            <div class="--profile-display --m-bot">
+                                <div class="--p-right">
+                                    <img src="./resource/image/Image.jpg" alt="photo">
+                                </div>
+                                <div class="--photo m-right ">
+                                    <div class="--input">
+                                        <input type="file" name="file" class="--input-file --width-115">
+                                        <img src="./resource/image/🔹 Icon Color.svg" alt="photo">
+                                    </div>
+                                    <div class="--text">
+                                        Up to 1 MB (300x300 px)
+                                    </div>
+                                </div>
+                                <button class="--input">
+                                    <img src="./resource/image/Icon Color1.svg" alt="trash">
+                                </button>
+                            </div>
+                            
+                            <div class="--name-display --m-bot">
+                                <label for="first-name" class="--form-display m-right --main-text">
+                                    Name
+                                    <input type="text" name="first-name" class="--input --width-245" required>
+                                </label>
+                                <label for="last-name" class="--form-display --main-text">
+                                    E-mail
+                                    <input type="text" name="last-name" class="--input --width-245" required>
+                                </label>
+                            </div>
+
+                            <div class="--name-display --m-bot">
+                                <label for="Country" class="--form-display m-right --main-text">
+                                    Country
+                                    <select name="Country" id="Country" class="--input --width-245 --c-dark-gray" required>
+                                        <option value="">Select</option>
+                                        <option value="germany">Germany</option>
+                                        <option value="ukraine">Ukraine</option>
+                                        <option value="Poland">Poland</option>
+                                        <option value="Austria">Austria</option>
+                                        <option value="Italy">Italy</option>
+                                        <option value="France">France</option>
+                                        <option value="Another">Another</option>
+                                    </select>
+                                </label>
+                                <label for="City" class="--form-display --main-text">
+                                    City
+                                    <input type="text" name="City" class="--input --width-245" required>
+                                </label>
+                            </div>
+                            <div class="--name-display --m-bot">
+                                <label for="first-name" class="--form-display m-right --main-text">
+                                    Zip Code
+                                    <input type="text" name="first-name" class="--input --width-245" required>
+                                </label>
+                                <label for="last-name" class="--form-display --main-text">
+                                    Phone Number
+                                    <input type="text" name="last-name" class="--input --width-245" required>
+                                </label>
+                            </div>
+                        </div>
+                            <button type="submit" class="--btn --width-115">
+                                Update
+                            </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>                   
+</body>
+</html>

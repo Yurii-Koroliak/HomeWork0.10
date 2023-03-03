@@ -1,0 +1,92 @@
+<!-- Щоб перейти на іншу форму натисни кнопку "Profile" знизу документа -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./resource/styles/style.css">
+    <link rel="stylesheet" href="./resource/styles/fonts-style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <main id="main">
+        <div>
+            <div class="--form">
+                <div class="--form-display --m-bot">
+                    <h1>Create an Account</h1>
+                    <form action="" method="get">
+                        <div>
+                            <div class="--name-display --m-bot">
+                                <label for="first-name" class="--form-display m-right --main-text">
+                                    First Name
+                                    <input type="text" name="first-name" class="--input --width-245" required>
+                                </label>
+                                <label for="last-name" class="--form-display --main-text">
+                                    Last Name
+                                    <input type="text" name="last-name" class="--input --width-245" required>
+                                </label>
+                            </div>
+
+                            <div class="--m-bot">
+                                <label for="e-mail" class="--form-display --main-text">
+                                    E-mail
+                                    <input type="text" name="e-mail" class="--input --width-500" required>
+                                </label>
+                                <span class="--text">We'll never share your email with anyone else.</span>
+                            </div>
+
+                            <div class="--form-radio --m-bot">
+                                <label for="gender" class="--p-right --main-text">
+                                    <input type="radio" name="gender" class="--radio" required>
+                                    Male
+                                </label>
+                                <label for="gender" class="--main-text">
+                                    <input type="radio" name="gender" class="--radio" required>
+                                    Female
+                                </label>
+                            </div>
+
+                            <div class="--name-display --m-bot">
+                                <label for="Country" class="--form-display  m-right --main-text">
+                                    Country
+                                    <select name="Country" id="Country" class="--input --width-245 --c-dark-gray" required>
+                                        <option value="">Select</option>
+                                        <option value="germany">Germany</option>
+                                        <option value="ukraine">Ukraine</option>
+                                        <option value="Poland">Poland</option>
+                                        <option value="Austria">Austria</option>
+                                        <option value="Italy">Italy</option>
+                                        <option value="France">France</option>
+                                        <option value="Another">Another</option>
+                                    </select>
+                                </label>
+                                <label for="City" class="--form-display  --main-text">
+                                    City
+                                    <input type="text" name="City" class="--input --width-245" required>
+                                </label>
+                            </div>
+                            <button type="submit" class="--btn --width-500">
+                                Sign Up
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="--text --terms">
+                    By clicking the 'Sign Up' button, you confirm that you accept our <a href="#" class="--c-blue">Terms of Use</a> 
+                    and <a href="#" class="--c-blue">Privacy Policy</a>.
+                </div>
+                <hr class="--m-bot">
+                <div>
+                    <div class="--name-display">
+                        <a href="#" class="--main-text --account m-right">Have an account?</a>
+                        <a href="#" class="--c-blue --main-text m-right">Log In</a>
+                        <a href="./profile.html" class="--c-blue --main-text">Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
